@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-local {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(43, 48, 53);
+  opacity: 85%;
+}
+
+.cardlocal {
+  margin: 5%;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardlocal div {
+  margin: 10px;
+}
+
+.imagelocal {
+  width: 40%;
+  height: 40%;
+}
