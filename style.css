@@ -1,24 +1,36 @@
-* {
+*,
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-.footer-local {
-  text-align: center;
-  color: white;
-}
-
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(43, 48, 53);
   opacity: 85%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.lipsum {
+  display: flex;
+  justify-content: left;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  line-height: 200%;
+  text-align: justify;
+  font-size: large;
 }
 
 .cardlocal {
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 15%;
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
@@ -26,10 +38,14 @@ footer {
 }
 
 .cardlocal div {
-  margin: 10px;
+  margin: 20px;
 }
 
 .imagelocal {
-  width: 40%;
-  height: 40%;
+  font-size: 500%;
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
 }
