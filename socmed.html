@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Blog</title>
 
+    <link rel="icon" type="image/x-icon" href="Favicon/favicon.jpg  " />
+
     <link rel="stylesheet" href="style.css" />
 
     <!-- INSTALL BOOTSTRAP CSS -->
@@ -15,6 +17,10 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <!--  INSTALL ICONS -->
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -39,12 +45,12 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Social Media</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >My Social Media</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://freemysouls.wordpress.com/">
@@ -68,7 +74,7 @@
     <div class="cardlocal">
       <div class="card" style="width: 18rem">
         <div class="imagelocal">
-          <img src="Logo/instagram-logo.png" class="card-img-top" alt="..." />
+          <i class="fa-brands fa-instagram"></i>
         </div>
         <div class="card-body">
           <h5 class="card-title">Instagram</h5>
@@ -85,7 +91,7 @@
       </div>
       <div class="card" style="width: 18rem">
         <div class="imagelocal">
-          <img src="Logo/twitter.png" class="card-img-top" alt="..." />
+          <i class="fa-brands fa-twitter"></i>
         </div>
         <div class="card-body">
           <h5 class="card-title">Twitter</h5>
@@ -101,7 +107,7 @@
       </div>
       <div class="card" style="width: 18rem">
         <div class="imagelocal">
-          <img src="Logo/tiktok.png" class="card-img-top" alt="..." />
+          <i class="fa-brands fa-tiktok"></i>
         </div>
         <div class="card-body">
           <h5 class="card-title">TikTok</h5>
@@ -115,13 +121,13 @@
       </div>
       <div class="card" style="width: 18rem">
         <div class="imagelocal">
-          <img src="Logo/pinterest.png" class="card-img-top" alt="..." />
+          <i class="fa-brands fa-pinterest"></i>
         </div>
         <div class="card-body">
           <h5 class="card-title">Pinterest</h5>
           <p class="card-text">
             This is where I search and keep online photos for aesthetics or
-            inspirations purposes
+            inspirations purposes.
           </p>
           <a href="https://www.pinterest.com/flxtrxx/" class="btn btn-primary"
             >Go to Pinterest</a
@@ -133,10 +139,10 @@
     <!-- FOOTER -->
     <footer>
       <div class="footer-local pt-3">
-        <ul>
+        <p class="p-footer">
           Proudly Made, by Luthfi<br />
           Copyright &copy; 2023
-        </ul>
+        </p>
       </div>
     </footer>
 
